@@ -21,7 +21,7 @@ form.addEventListener('submit', function(e){
     li.appendChild(bookName)
     li.appendChild(deleteBtn)
     list.appendChild(li);
-    value = ""
+    form.querySelector('input[type="text"]').value = ""
 
 
 })

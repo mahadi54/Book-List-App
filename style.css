@@ -6,6 +6,7 @@ body{
 
 h1, h2{
     font-weight: normal;
+   
 }
 
 #wrapper{
@@ -18,10 +19,11 @@ h1, h2{
     padding: 0 0 20px;
     overflow: hidden;
     border: 1px solid lightgray;
+    background-color: lightgray;
 }
 
 #page-banner{
-    background: #eee ;
+    background-color: gray;
     padding: 10px 0;
 
 }
@@ -30,11 +32,12 @@ h1, h2{
     width: 100%;
     text-align: center;
     margin: 10px 0;
+    color: white;
 }
 
 #page-banner input{
     width: 90%;
-    max-width: 300px;
+    max-width: 400px;
     margin: 20px auto;
     display: block;
     padding: 8px;
@@ -43,6 +46,8 @@ h1, h2{
     font-size: 16px;
     color: #444;
 }
+
+
 
 #book-list, #add-book, #tabbed-content{
     margin: 30px;
@@ -79,6 +84,7 @@ h1, h2{
 #add-book{
     width: 400px;
     margin: 0 auto;
+  
 }
 
 #add-book input{
@@ -104,7 +110,6 @@ h1, h2{
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     width: 100px;
-    float: left;
     margin: 20px 0;
     border-left: 0;
     color: white;
